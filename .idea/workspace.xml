@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="494a5a5e-3dda-4348-be00-ccaf31f344a4" name="Default Changelist" comment="第一次提交">
       <change afterPath="$PROJECT_DIR$/../ysy/Page/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/element.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/element.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Robot/Lipei_auto/__init__.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Robot/Lipei_auto/data/Tiezi.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Robot/Lipei_auto/data/Tiezi.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Robot/Lipei_auto/pic/baoming.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Robot/Lipei_auto/data/pic/baoming.jpg" afterDir="false" />
@@ -49,7 +52,7 @@
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="3" />
@@ -60,13 +63,13 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="51" />
-          <entry key="ini" value="7" />
+          <entry key="ini" value="8" />
           <entry key="md" value="3" />
           <entry key="py" value="230" />
           <entry key="yaml" value="13" />
@@ -75,7 +78,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="51" />
-          <entry key="Ini" value="7" />
+          <entry key="Ini" value="8" />
           <entry key="Markdown" value="3" />
           <entry key="Python" value="230" />
           <entry key="YAML" value="13" />
@@ -185,14 +188,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/business/sina_send_chapter_business.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="98">
+              <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding>
                 <element signature="e#53#109#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/element.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -221,7 +233,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -267,7 +279,6 @@
         <option value="$PROJECT_DIR$/base/base_driver.py" />
         <option value="$PROJECT_DIR$/handle/sys_sdk.py" />
         <option value="$PROJECT_DIR$/util/get_by_locator.py" />
-        <option value="$PROJECT_DIR$/config/element.ini" />
         <option value="$PROJECT_DIR$/page/photo_album.py" />
         <option value="$PROJECT_DIR$/handle/sina_home_handle.py" />
         <option value="$PROJECT_DIR$/business/choose_pics.py" />
@@ -276,6 +287,7 @@
         <option value="$PROJECT_DIR$/handle/sina_chapter_handle.py" />
         <option value="$PROJECT_DIR$/page/sina_photo_album.py" />
         <option value="$PROJECT_DIR$/business/sina_send_chapter_business.py" />
+        <option value="$PROJECT_DIR$/config/element.ini" />
       </list>
     </option>
   </component>
@@ -620,7 +632,7 @@
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6616702" visible="true" weight="0.18095239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6616702" visible="true" weight="0.18333334" />
       <window_info id="Structure" order="1" sideWeight="0.33832976" side_tool="true" weight="0.13571429" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -916,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/element.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base/base_driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1004,11 +1009,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/business/sina_send_chapter_business.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="98">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="e#53#109#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/element.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
