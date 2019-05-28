@@ -29,7 +29,7 @@ class Server(object):
         if self.devices_list != None:
             # for i in range(len(devices_list)):  # 根据设备信息长度，对3个list进行for循环，依次去除并拼接好敏灵
             command = "appium -p " + str(appium_port_list[i]) + " -bp " + str(
-                appium_bp_port_list[i]) + " -U " + str(self.devices_list[i]) + " --no-reset --session-override"
+                appium_bp_port_list[i]) + " -U " + str(self.devices_list[i]) + " --no-reset --session-override" + " --log D:\Job\python\Script\Lipei_app\\report\log\\" + str(self.devices_list[i]) + ".log"        #将log写入对应文件
             command_list.append(command)
             self.oy.write_yaml(i, str(self.devices_list[i]), str(appium_bp_port_list[i]), str(appium_port_list[i]))
             return command_list

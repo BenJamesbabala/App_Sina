@@ -28,12 +28,6 @@ class TestMain(ParamTestCase):
         print("This is a setup,本方法在每个用例执行前执行，多个用例则会执行多次")
 
     @unittest.skip("test")
-    def test_001(self):
-        a = 1
-        b = 2
-        self.assertEqual(a,b,'ab值不相等')      # 如果该用例执行失败，并不会影响case2的执行
-
-    @unittest.skip("test")
     def test_002(self):
         a = 1
         c = 1
@@ -47,6 +41,8 @@ class TestMain(ParamTestCase):
         ser = Server()
         ser.close_driver(parames)
         print("This is a tearDown,本方法在每个用例执行后执行，多个用例则会执行多次")
+        if sys.exc_info()[0]:       #自动捕获所有异常及报错
+            self.sscb.driver.save_screenshot(r"D:\Job\python\Script\Lipei_app\report\error_pic\err.jpg")
 
     @classmethod
     def tearDownClass(cls):

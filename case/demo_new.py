@@ -4,22 +4,27 @@
 # Comment: 内容中输入数字后的中文变英文
 from appium import webdriver
 from time import sleep
-from util.oper_excel import Oper_excel
+from util.oper_excel import OperExcel
 import sys
 import os
+from util.cmd import Cmd
 
 class Driver(object):
 
     def __init__(self):
-        self.oe = Oper_excel(self.excel_path())
+        self.oe = OperExcel()
+        self.cmd =Cmd()
+
+    def start_appium(self):
+        self.cmd.appium_start()
 
     def get_driver(self):
         capabilities = {
             "platformName": "Android",
+            "resetKeyboard":"true",
             "unicodeKeyboard": 'true',
             "deviceName": "3XU9X17324W10646",
             "noReset": 'true',
-            "platformVersion": "6.0",
             "appPackage": "com.ss.android.article.news",
             "appActivity": "com.ss.android.article.news.activity.SplashBadgeActivity"  # appium1.7版本之后就应该不需要改配置了
 
@@ -85,5 +90,6 @@ class Driver(object):
 
 if __name__ == '__main__':
     d = Driver()
-    #d.circl_send()
+    # d.start_appium()
+    # sleep(20)
     d.circl_send()

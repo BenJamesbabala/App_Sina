@@ -21,10 +21,10 @@ class BaseDriver(object):
         capabilities = {
             "platformName": "Android",
             # "resetKeyboard":"true",
-            "unicodeKeyboard": 'true',          #OPPO-A73需要此行隐匿
+            "unicodeKeyboard": 'true',
             "deviceName": device,
             "noReset": 'true',
-            "platformVersion": "6.0",
+            # "platformVersion": "6.0",            # OPPO-a73也可正常运行，所以不需要这个版本号
             "appPackage": "com.sina.weibo",
             "appActivity": "com.sina.weibo.SplashActivity"  # appium1.7版本之后就应该不需要改配置了
         }

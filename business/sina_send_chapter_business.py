@@ -43,8 +43,6 @@ class SinaSendChapterBusiness(object):
         time.sleep(1)
         self.sch.click_pic()
         time.sleep(1)
-
-
         #self.shh.driver_close()
 
     def circl_send_sina(self):
@@ -71,3 +69,4 @@ class SinaSendChapterBusiness(object):
         '''
         input_list = self.driver.available_ime_engines       #注意这里是不用(),源代码：return self.execute(Command.GET_AVAILABLE_IME_ENGINES, {})['value']
         self.driver.activate_ime_engine(input_list[0])     #设置为第一个输入法
+
